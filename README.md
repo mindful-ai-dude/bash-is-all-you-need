@@ -1,6 +1,6 @@
 # Bash is All You Need - Gregory Kennedy
 
-**The technological landscape of 2026 has witnessed a profound paradigm shift in AI architecture. As models have grown in reasoning depth and context window capacity, the need for elaborate prompt plumbing or rigid directed acyclic graphs has diminished. Replaced by the versatile and composable environment of the Bourne Again Shell (Bash), modern agentic systems are achieving unprecedented levels of autonomy.**
+The technological landscape of 2026 has witnessed a profound paradigm shift in AI architecture. As models have grown in reasoning depth and context window capacity, the need for elaborate prompt plumbing or rigid directed acyclic graphs has diminished. Replaced by the versatile and composable environment of the Bourne Again Shell (Bash), modern agentic systems are achieving unprecedented levels of autonomy.
 ---
 
 ![Bash is All You Need Website Image](images/image-Website-Webapp%20-%20Bash%20is%20All%20You%20Need.png)
