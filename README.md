@@ -119,7 +119,7 @@ bash-is-all-you-need-app/
 
 ### The Agent Harness Architecture
 
-A harness acts as the Operating System for the agent, providing the necessary drivers and environment for the CPU (the model) and RAM (the context window) to function effectively. Claude Code represents a sophisticated implementation—on the CORE-Bench benchmark, Claude Opus 4.5 achieved **78%** success with the Claude Code harness versus only **42%** with a less optimized framework.
+A harness acts as the Operating System for the agent, providing the necessary drivers and environment for the CPU (the model) and RAM (the context window) to function effectively.
 
 ### Essential Shell Commands for ML Operations
 
