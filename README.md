@@ -115,7 +115,7 @@ bash-is-all-you-need-app/
 
 ---
 
-## Key Concepts from the Paper
+## Key Concepts from the Article
 
 ### The Agent Harness Architecture
 
