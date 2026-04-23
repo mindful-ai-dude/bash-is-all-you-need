@@ -10,7 +10,7 @@
 
 ## Overview
 
-This project is an interactive single-page web application that visualizes and explores the thesis presented in the research paper **"Bash as the Foundational Harness for Agentic Intelligence: The Renaissance of Minimalist Computing"** (Gregory Kennedy, April 2026).
+This project is an interactive web application that visualizes and explores the thesis presented in the research paper **"Bash as the Foundational Harness for Agentic Intelligence: The Renaissance of Minimalist Computing"** (Gregory Kennedy, April 2026).
 
 The application demonstrates why the Unix philosophy—modularity, simplicity, and text-based interfaces—has re-emerged in 2026 as the most effective means of harnessing state-of-the-art Large Language Models (LLMs). Rather than relying on complex, multi-layered orchestration frameworks, the paper argues for a return to Bash as the foundational "glue" for AI agent harnesses.
 
