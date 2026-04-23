@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <defs>
+    <linearGradient id="terminalBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="phosphor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff41"/>
+      <stop offset="100%" style="stop-color:#00cc33"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Terminal Window -->
+  <rect width="800" height="200" fill="url(#terminalBg)" rx="8"/>
+  
+  <!-- Window Controls -->
+  <circle cx="30" cy="25" r="8" fill="#ff5f56"/>
+  <circle cx="55" cy="25" r="8" fill="#ffbd2e"/>
+  <circle cx="80" cy="25" r="8" fill="#27ca40"/>
+  
+  <!-- Title Bar -->
+  <text x="400" y="30" font-family="monospace" font-size="14" fill="#666" text-anchor="middle">intro.sh — 80×25</text>
+  
+  <!-- Cursor Block -->
+  <rect x="30" y="60" width="12" height="20" fill="#00ff41" opacity="0.8">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Text Content -->
+  <text x="50" y="75" font-family="monospace" font-size="18" fill="url(#phosphor)" font-weight="bold">
+    user@architect:~$ cat 01_intro.md
+  </text>
+  
+  <!-- ASCII Header Art -->
+  <text x="50" y="110" font-family="monospace" font-size="12" fill="#00ff41" opacity="0.9">
+    ╔═══════════════════════════════════════════════════════════════╗
+  </text>
+  <text x="50" y="125" font-family="monospace" font-size="12" fill="#00ff41" opacity="0.9">
+    ║   ___ _   _ ___ _____ ___  _   _ _____ _   _  ___  ___       ║
+  </text>
+  <text x="50" y="140" font-family="monospace" font-size="12" fill="#00ff41" opacity="0.9">
+    ║  |_ _| \ | |_ _|_   _/ _ \| | | | ____| \ | |/ _ \| _ \___   ║
+  </text>
+  <text x="50" y="155" font-family="monospace" font-size="12" fill="#00ff41" opacity="0.9">
+    ╚═══════════════════════════════════════════════════════════════╝
+  </text>
+  
+  <!-- Section Number -->
+  <rect x="700" y="130" width="80" height="50" fill="none" stroke="#00ff41" stroke-width="2"/>
+  <text x="740" y="162" font-family="monospace" font-size="32" fill="#00ff41" font-weight="bold" text-anchor="middle">01</text>
+  
+  <!-- Scanline Effect -->
+  <rect width="800" height="2" fill="#000" opacity="0.3">
+    <animate attributeName="y" values="0;200" dur="0.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
