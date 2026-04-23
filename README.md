@@ -1,6 +1,6 @@
-# Bash is All You Need — Interactive Web Experience
+# Bash is All You Need
 
-![Bash is All You Need Website](images/image-Website-Webapp%20-%20Bash%20is%20All%20You%20Need.png)
+![Bash is All You Need Website Image](images/image-Website-Webapp%20-%20Bash%20is%20All%20You%20Need.png)
 
 > *"In an era obsessed with autonomous agents and thousand-line orchestration frameworks, the Bash shell remains the most reliable way to engineer modern workflows."*
 >
@@ -184,6 +184,58 @@ MIT License — See [LICENSE](./LICENSE) for details.
 3. [shareAI-lab/learn-claude-code: Bash is all you need](https://github.com/shareAI-lab/learn-claude-code)
 4. [What I learned building an opinionated and minimal coding agent — Mario Zechner](https://mariozechner.at/posts/2025-11-30-pi-coding-agent/)
 5. [Inside the Claude Agents SDK — ML6](https://www.ml6.eu/en/blog/inside-the-claude-agents-sdk-lessons-from-the-ai-engineer-summit)
+
+---
+
+## GitHub Steps and Tips
+
+### Quick Start with This Repository
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/mindful-ai-dude/bash-is-all-you-need.git
+cd bash-is-all-you-need
+
+# 2. Install dependencies
+pnpm install
+
+# 3. Start the dev server
+pnpm dev
+
+# 4. Open http://localhost:5173 in your browser
+```
+
+### Essential Git Workflow
+
+| Step | Command | Purpose |
+| :--- | :--- | :--- |
+| **Stage all changes** | `git add -A` | Prepares modified/new files for commit |
+| **Commit with a message** | `git commit -m "description"` | Saves a snapshot of staged changes |
+| **Push to GitHub** | `git push origin main` | Uploads commits to the remote repository |
+| **Pull latest changes** | `git pull origin main` | Fetches and merges remote updates |
+| **Check status** | `git status` | Shows which files are modified/staged |
+| **View history** | `git log --oneline` | Lists commits in compact format |
+
+### Tips for Clean Commits
+
+- **Write descriptive commit messages** — Use imperative mood: `"Add workflow simulator"` not `"Added simulator"`
+- **Commit early and often** — Small, focused commits are easier to review and revert
+- **Use `.gitignore`** — Already configured to exclude `node_modules/`, `dist/`, `.env`, and OS files
+- **Avoid committing secrets** — Never push `.env` files or API keys; the repo already ignores them
+- **Verify before pushing** — Run `git status` to confirm only intended files are staged
+
+### Branching Strategy (Recommended)
+
+```bash
+# Create a feature branch
+git checkout -b feature/new-section
+
+# Make changes, commit, then push
+git push -u origin feature/new-section
+
+# Open a Pull Request on GitHub for review
+# Merge to main when ready
+```
 
 ---
 
