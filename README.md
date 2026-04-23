@@ -18,7 +18,6 @@ The technological landscape of 2026 has witnessed a profound paradigm shift in A
 Popularized by engineering teams at Vercel and Anthropic, the core observation is that as models become smarter and their context windows expand, they no longer require rigid hand-coded pipelines. Instead, giving a model a Bash shell and allowing it to execute commands, observe output, and self-correct yields superior results for complex, long-horizon tasks.
 
 > *"Models are getting smarter and context windows are getting larger, so maybe the best agent architecture is almost no architecture at all."*
->
 > — Andrew Qu, Vercel
 
 ---
