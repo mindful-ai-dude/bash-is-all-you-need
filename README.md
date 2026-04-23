@@ -1,5 +1,9 @@
 # Bash is All You Need
 
+<div align="center">
+  <img src="images/image-gregory%20kennedy.jpeg" alt="Gregory Kennedy" width="150" style="border-radius: 50%;" />
+</div>
+
 ![Bash is All You Need Website Image](images/image-Website-Webapp%20-%20Bash%20is%20All%20You%20Need.png)
 
 > *"In an era obsessed with autonomous agents and thousand-line orchestration frameworks, the Bash shell remains the most reliable way to engineer modern workflows."*
